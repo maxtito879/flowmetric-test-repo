@@ -1,0 +1,14 @@
+name: FlowMetric Test
+
+on:
+  push:
+  pull_request:
+
+permissions: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: exit 0
